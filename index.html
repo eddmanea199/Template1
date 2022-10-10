@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Template 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+.navbar{
+	padding:0.5em 5em;
+	font-weight: bold;
+}
+.navbar-brand{
+	font-size: 40px;
+}
+.navbar-nav {
+	padding-left: 55%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    padding: 0 100px;
+  }
+  
+.col-sm-2{
+	width:100%;
+	height:100%;
+}
+
+.carousel-caption{
+	background:rgba(0,0,0,.5);
+	margin:20px -80px;
+	padding:0 20px;
+	width:max-content;
+}
+
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  
+.chat-container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.chat-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.name-right {
+  float: right;
+  color: #aaa;
+}
+
+.name-left {
+  float: left;
+  color: #999;
+}
+
+</style>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">Quarque</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">FEATURES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">PORTOFOLIO</a>
+    </li>
+	<li class="nav-item">	
+      <a class="nav-link" href="#">BLOG</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#">CONTACT</a>
+    </li>
+  </ul>
+</nav>
+<p style="text-align:center;margin:30px;font-size:x-large;">Welcome to <a href="template1.png" target="_blank"><span class="bg-success text-white" style="border-radius:5px;">Quarque</span></a> Clean & Responsive Template.<br>
+This intro text can be modified and is a good way to say hello to the visitor.</p>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+   <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://eduard.linndows.com/tema-sapt-18-24-sept/template1/picture1.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>This is caption</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Abcupiditate est eveniet.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://eduard.linndows.com/tema-sapt-18-24-sept/template1/picture2.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>This is a caption</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Abcupiditate est eveniet.</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://eduard.linndows.com/tema-sapt-18-24-sept/template1/picture3.jpg" alt="New York" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>This is a caption</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Abcupiditate est eveniet.</p>
+      </div>   
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<hr style="width:87%">
+
+
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="pull-left"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-1-circle-fill" viewBox="0 0 16 16" style="color:blue;">
+				<path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383h1.312Z"/>
+</svg></span>
+      <span class="pull-right">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</span>
+	</div>
+	    <div class="col-sm-4">
+		<span class="pull-left">
+		<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-2-circle-fill" viewBox="0 0 16 16" style="color:gray;">
+				<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM6.646 6.24c0-.691.493-1.306 1.336-1.306.756 0 1.313.492 1.313 1.236 0 .697-.469 1.23-.902 1.705l-2.971 3.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763 1.287-1.428 1.287-2.43 0-1.266-1.031-2.215-2.613-2.215-1.758 0-2.637 1.19-2.637 2.402v.065h1.271v-.07Z"/>
+		</svg></span>
+		<span class="pull-right">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</span>
+		</div>
+	    <div class="col-sm-4">
+		<span class="pull-left;"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-3-circle-fill" viewBox="0 0 16 16" style="color:gray;">
+			<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0Zm-8.082.414c.92 0 1.535.54 1.541 1.318.012.791-.615 1.36-1.588 1.354-.861-.006-1.482-.469-1.54-1.066H5.104c.047 1.177 1.05 2.144 2.754 2.144 1.653 0 2.954-.937 2.93-2.396-.023-1.278-1.031-1.846-1.734-1.916v-.07c.597-.1 1.505-.739 1.482-1.876-.03-1.177-1.043-2.074-2.637-2.062-1.675.006-2.59.984-2.625 2.12h1.248c.036-.556.557-1.054 1.348-1.054.785 0 1.348.486 1.348 1.195.006.715-.563 1.237-1.342 1.237h-.838v1.072h.879Z"/>
+			</svg></span>
+		<span class="pull-right">Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</span>
+    </div>
+  </div>
+</div>
+  
+<div class="container" style="margin-top:30px">
+	<div class="row">
+		<div class="col-sm-2">
+			<h5>Recent works</h5>
+		</div>
+		<div class="col-sm-2">
+			<hr>
+		</div>
+		<div class="col-sm-4">
+			<hr>
+		</div>
+		<div class="col-sm-4">
+			<hr>
+		</div>
+	</div>
+  <div class="row">
+    <div class="col-sm-4">
+      <div><img class="img-fluid" src="architecture1.jpg" alt="architecture1"></div>
+      <h5>Architecture in Melbourne</h5>
+      <p>Your custom portofolio item short description</p>
+    </div>
+	    <div class="col-sm-4">
+      <div><img class="img-fluid" src="architecture2.jpg" alt="architecture2"></div>
+      <h5>Architecture Design</h5>
+      <p>Acte venenants diobus postuere veit alquet</p>
+    </div>
+	    <div class="col-sm-4">
+      <div><img class="img-fluid" src="architecture3.jpg" alt="architecture3"></div>
+      <h5>Architecture / Building</h5>
+      <p>Nulam dictum fels eu pede molls predum</p>
+    </div>
+  </div>
+
+
+
+
+<div class="container" style="margin-top:30px">
+<div class="row">
+		<div class="col-sm-2">
+			<h5>Latest from Blog</h5>
+		</div>
+		<div class="col-sm-1">
+			<hr>
+		</div>
+		<div class="col-sm-3">
+			<hr>
+		</div>
+		<div class="col-sm-3">
+			<hr>
+		</div>
+		<div class="col-sm-2">
+			  <h5>Testimonials</h5>
+		</div>
+		<div class="col-sm-1">
+			<hr>
+		</div>
+	</div>
+
+
+  <div class="row">
+    <div class="col-sm-3">
+ 
+      <div><img class="img-fluid" src="landscape1.jpg" alt="landscape1"></div>
+      <p style="font-weight:bold;">Landscape 1</p>
+	  <p>March 16, 2022 / 12 comments</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+
+    <div class="col-sm-3">
+      <div><img class="img-fluid" src="landscape2.jpg" alt="landscape2"></div>
+      <p style="font-weight:bold;">Landscape 2</p>
+	  <p>March 16, 2022 / 12 comments</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+	<div class="col-sm-3">
+      <div><img class="img-fluid" src="landscape3.jpg" alt="landscape3"></div>
+      <p style="font-weight:bold;">Landscape 3</p>
+	  <p>March 16, 2022 / 12 comments</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>     
+    </div>
+	<div class="col-sm-3">
+ 
+		  <!-- The slideshow -->
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <div class="chat-container">
+				  <p>Posuere erat a ante venenants dapibus posuere veit, alquet. Duis ils, est nom coeammodo luctus, nisi erat porttitot ligula, egeteas lacruto odiomo sem.</p>
+				  <span class="name-right">Michael, Front Developer</span>
+				</div>
+			</div>
+			<div class="carousel-item">
+				  <div class="chat-container darker">
+				  <p>Posuere erat a ante venenants dapibus posuere veit, alquet. Duis ils, est nom coeammodo luctus, nisi erat porttitot ligula, egeteas lacruto odiomo sem.</p>
+				  <span class="name-left">Michael, Front Developer</span>
+				</div>
+
+			</div>
+			<div class="carousel-item">
+			  <div class="chat-container">
+				<p>Posuere erat a ante venenants dapibus posuere veit, alquet. Duis ils, est nom coeammodo luctus, nisi erat porttitot ligula, egeteas lacruto odiomo sem.</p>
+			  <span class="name-right">Michael, Front Developer</span>
+			</div>
+			</div>
+		  </div>
+  
+  <!-- Left and right controls -->
+		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#demo" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		  </a>
+		</div>
+	  
+         
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
